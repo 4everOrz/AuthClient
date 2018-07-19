@@ -1,12 +1,18 @@
-# Binaries for programs and plugins
+bin
+pkg
+.settings
+.project
+.classpath
 *.exe
 *.exe~
-*.dll
-*.so
-*.dylib
+*.tmp
+*.tar.gz
+*.log
+*.yaml
+.vscode
+*.bat
+*.ini
+*.crt
+*.key
+debug
 
-# Test binary, build with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
